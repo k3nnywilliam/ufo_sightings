@@ -1,0 +1,12 @@
+data/
+data/nuforc_reports.csv
+nuforc_reports.csv
+data/nuforc_reports_cleaned.rds
+*/nuforc_reports_cleaned.rds
+*.csv
+*.rds
+tester.R
+*.Rproj
+*Rhistory
+.DS_Store
+.Rproj.user/
