@@ -91,7 +91,14 @@ server_module_for_map <- function(id) {
           addCircles(
             data = filtered_datas,
             lng=~city_longitude,  weight = 10, radius = 100, 
-            lat=~city_latitude, label = ~htmlEscape(summary))
+            lat=~city_latitude, label = ~htmlEscape(summary),
+            labelOptions = labelOptions(noHide = F, 
+                                        direction = "bottom",
+                                        style = list(
+                                          "color" = "black",
+                                          "font-family" = "serif",
+                                          "font-size" = "15px"
+                                        )))
         
       } else {
         #We render an empty map
