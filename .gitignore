@@ -7,6 +7,6 @@ data/nuforc_reports_cleaned.rds
 *.rds
 tester.R
 *.Rproj
-*Rhistory
+*.Rhistory
 .DS_Store
 .Rproj.user/
